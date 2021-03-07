@@ -7,7 +7,7 @@
 ## 1. Preparation
 (1)使用编码工具(如HM)对视频进行编码, 编码参数可参见sample_parameters.cfg. 目前的设置: I帧的间隔为32, 即第0, 32, 64帧为I帧, 其余为帧; P帧的编码QP=42, 37, I帧的QP 比P帧的小6~8;
 
-(2)目前只给出了P帧QP = 42 的网络参数, 即models/QP42-HALF-XH-32.06381.hdf5 和 models/QP42-FINAL-28.254367.hdf5, 后续会陆续给出QP=37和QP=32;
+(2)目前只给出了P帧QP = 42 的网络参数, 百度网盘下载(https://pan.baidu.com/s/1RHv7q7MOr2QPHHxzSyLSOg，提取码: lus2), 即models/QP42-HALF-XH-32.06381.hdf5 和 models/QP42-FINAL-28.254367.hdf5, 后续会陆续给出QP=37和QP=32;
 
 (3)目录 video_bits 提供了一些测试视频, 需用  TAppdecoder.exe 解码, 形如: TAppdecoder -b xxx.bin -o xxx.yuv;
 
